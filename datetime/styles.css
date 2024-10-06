@@ -1,11 +1,36 @@
 .container {
-  padding: 10px;
-  background-color: #e1fbf9;
-  width: 933.75px;
-  height: 100.26px;
-  border-radius: 12.5px;
+  display: flex;
+  height: 112.07px;
+  width: 185px;
 }
 
-.greeting {
+.time,
+.unit,
+.date {
+  margin: 0;
+  padding: 0;
+}
+
+.time {
   font-family: "Oxygen", sans-serif;
-  font-weight: 7
+  color: #2dbdb1;
+  font-weight: 400;
+  font-size: 56.25px;
+  line-height: 71.03px;
+}
+
+.unit {
+  font-family: "Oxygen", sans-serif;
+  color: #2dbdb1;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.94px;
+}
+
+.date {
+  font-family: "Oxygen", sans-serif;
+  color: #4b5853;
+  font-weight: 400;
+  font-size: 18.75px;
+  line-height: 23.68px;
+}
